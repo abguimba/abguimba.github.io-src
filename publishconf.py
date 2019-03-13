@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://abguimba.github.io'
+SITEURL = 'https://abguimba.github.io'
 GITHUB_URL = 'https://github.com/abguimba'
 AUTHOR = u'Abraham Guimbao'
 RELATIVE_URLS = False
@@ -27,7 +27,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 
 
-THEME = 'themes/chunk'
+THEME = 'chunk'
 OUTPUT_PATH = 'output'
 PATH = 'content'
 
