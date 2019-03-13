@@ -11,6 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://abguimba.github.io'
+GITHUB_URL = 'https://github.com/abguimba'
+AUTHOR = u'Abraham Guimbao'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -24,14 +26,11 @@ DELETE_OUTPUT_DIRECTORY = False
 #GOOGLE_ANALYTICS = ""
 
 
-AUTHOR = u'Abraham Guimbao'
-SITENAME = u'abguimba'
 
 THEME = 'themes/chunk'
 OUTPUT_PATH = 'output'
 PATH = 'content'
 
-#GITHUB_URL = 'https://github.com/abguimba'
 #MENUITEMS = True
 
 ## Settings used by this theme (All Optional)
