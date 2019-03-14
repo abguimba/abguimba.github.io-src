@@ -3,14 +3,21 @@ body.dark-mode {
   color: #eee;
 }
 body.dark-mode a {
-  color: #111;
+  color: #fff;
 }
 body.dark-mode button {
   background-color: #eee;
-  color: #111;
+  color: #fff;
 }
+body.dark-mode h1 {
+  color: #fff;
+}
+
+
+
+
+
 body.light-mode {
-  background-color: #eee;
   color: #111;
 }
 body.light-mode a {
@@ -19,5 +26,8 @@ body.light-mode a {
 body.light-mode button {
   background-color: #111;
   color: #eee;
+}
+body.light-mode h1 {
+  color: #111;
 }
 
