@@ -809,6 +809,11 @@ article.comment {
 	text-decoration: none;
 }
 
+div.darkbutton {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
 
 /* =WP.com
 ----------------------------------------------- */
