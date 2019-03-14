@@ -44,6 +44,7 @@ body {
 /* =Header
 ----------------------------------------------- */
 #site-title {
+  color: #000;
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-weight: bold;
 	font-size: 80px;
@@ -51,7 +52,6 @@ body {
 	text-rendering: optimizeLegibility;
 }
 #site-title a {
-	color: #000;
 	letter-spacing: 1px;
 	text-decoration: none;
 }
