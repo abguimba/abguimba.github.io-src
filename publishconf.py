@@ -27,7 +27,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 
 
-THEME = 'chunk'
+THEME = 'themes/chunk'
 OUTPUT_PATH = 'output'
 PATH = 'content'
 
