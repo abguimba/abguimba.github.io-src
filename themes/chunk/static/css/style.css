@@ -16,7 +16,7 @@ Tags: light, white, fixed-width, one-column, custom-background, custom-header, c
 ----------------------------------------------- */
 @font-face {
   font-family: 'Oswald';
-  src: local('Oswald');
+  src: local('fonts');
   src: url('webfont.eot'); /* IE9 Compat Modes */
   src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
