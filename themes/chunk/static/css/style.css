@@ -59,18 +59,15 @@ body {
 	color: #36bcab;
 }
 #site-description {
-	background: #f1f1f1;
-	background-image: -webkit-linear-gradient( #f8f8f8, #eee);
-	background-image: -moz-linear-gradient( #f8f8f8, #eee);
 	border-radius: 3px;
-	color: #666;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	margin-top: 0;
 	margin-bottom: 50px;
 	padding: 6px 10px;
 }
+
 #menu #header-image a {
 	margin: 0;
 	padding: 0;
@@ -821,6 +818,10 @@ div.darkbutton {
 	clear: both;
 }
 
+
+
+/* =Dark-Mode
+----------------------------------------------- */
 body.dark-mode {
   background-color: #111;
   color: #eee;
@@ -829,15 +830,19 @@ body.dark-mode a {
   color: #fff;
 }
 body.dark-mode button {
-  background-color: #eee;
+  background-color: #111;
   color: #fff;
+  border : none;
 }
 body.dark-mode h1 {
   color: #fff;
 }
-
-
-
+body.dark-mode h2#site-description {
+  color: #fff;
+  background: initial;
+  background-image: initial;
+  background-image: initial;
+}
 
 
 body.light-mode {
@@ -847,9 +852,16 @@ body.light-mode a {
   color: #111;
 }
 body.light-mode button {
-  background-color: #111;
+  background-color: #eee;
   color: #eee;
+  border : none;
 }
 body.light-mode h1 {
   color: #111;
+}
+body.light-mode h2#site-description {
+  color: #666;
+  background: #f1f1f1;
+  background-image: -moz-linear-gradient( #f8f8f8, #eee);
+  background-image: -webkit-linear-gradient( #f8f8f8, #eee);
 }
