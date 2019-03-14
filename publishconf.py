@@ -68,11 +68,13 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = [
 #    'images',
     'extra',
+    'extra/README.md',
     'extra/robots.txt',
     'extra/favicon.ico',
 ]
 EXTRA_PATH_METADATA = {
 #   'extra/custom.css': {'path': 'custom.css'},
+    'extra/README.md': {'path': 'README.md'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
 #    'extra/CNAME': {'path': 'CNAME'},
