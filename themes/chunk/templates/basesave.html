@@ -4,13 +4,6 @@
 		{% block head %}
 		<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 		<meta charset="utf-8" />
-    <script>
-      function toggleDarkLight() {
-      var body = document.getElementById("body");
-      var currentClass = body.className;
-      body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-      }
-    </script>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
 		<link rel='stylesheet' id='oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald&#038;ver=3.3.2' type='text/css' media='all' />
@@ -32,13 +25,8 @@
 		{% endblock head %}
 </head>
 
-<body id="body" class="light-mode" class="home blog custom-background {% if SINGLE_AUTHOR %}single-author{% endif %}" >
-	<h1>Dark/Light Mode Switcher</h1>
-   
-  <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
-  
-  <p>Just press the button above to toggle!</p>
-  <div id="container">
+<body class="home blog custom-background {% if SINGLE_AUTHOR %}single-author{% endif %}" >
+	<div id="container">
 		<div id="header">
 				<h1 id="site-title"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
 				{% if SITESUBTITLE %}<h2 id="site-description">{{ SITESUBTITLE }}</h2>{% endif %}
