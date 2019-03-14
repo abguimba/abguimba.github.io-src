@@ -31,7 +31,6 @@ THEME = 'themes/chunk'
 OUTPUT_PATH = 'output'
 PATH = 'content'
 
-#MENUITEMS = True
 
 ## Settings used by this theme (All Optional)
 DEFAULT_DATE_FORMAT = ('%d %b %Y')
@@ -55,9 +54,10 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Github', 'https://github.com/abguimba'),
-         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra/'),
+         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
          ('Twitter', 'https://www.twitter.com/abguimba'),
-         ('CV', 'https://abguimba.github.io/CV.pdf'))
+         ('CV', 'https://abguimba.github.io/CV.pdf'),
+         ('Google', 'https://google.com'))
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
