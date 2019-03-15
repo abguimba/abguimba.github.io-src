@@ -4,11 +4,16 @@
 		{% block head %}
 		<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 		<meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
       function toggleDarkLight() {
       var body = document.getElementById("body");
       var currentClass = body.className;
       body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+
+      var elem = document.getElementById("dark-mode-button");
+      if (elem.value=="🌛") elem.value = "🌞";
+      else elem.value = "🌛";
       }
     </script>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -34,7 +39,7 @@
 
 <body id="body" class="light-mode" class="home blog custom-background {% if SINGLE_AUTHOR %}single-author{% endif %}" >
   <div class="darkbutton">
-    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode"><font size="+1">🌛</font></button>
+    <button id="dark-mode-button" type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode"><font size="+1">🌛</font></button>
   </div> 
   
   <div id="container">
@@ -46,7 +51,7 @@
 		<div id="menu">
 			<div class="menu-navigation-container">
 				<ul id="menu-navigation" class="menu">
-					{% for title, link in MENUITEMS %}
+					{% for titlee, link in MENUITEMS %}
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ link }}">{{ title }}</a></li>
 					{% endfor %}
 					  {% for p in PAGES %}

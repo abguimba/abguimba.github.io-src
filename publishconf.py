@@ -13,6 +13,7 @@ from pelicanconf import *
 SITEURL = 'https://abguimba.github.io'
 GITHUB_URL = 'https://github.com/abguimba'
 AUTHOR = u'Abraham Guimbao'
+SITENAME= 'abguimba'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -37,6 +38,8 @@ DEFAULT_DATE_FORMAT = ('%d %b %Y')
 SITESUBTITLE = 'Portfolio'
 FOOTER_TEXT = ' '
 DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
+
 SINGLE_AUTHOR = True
 MINT = False
 
@@ -51,6 +54,11 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+MENUITEMS = (('Github', 'https://github.com/abguimba'),
+         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
+         ('Twitter', 'https://www.twitter.com/abguimba'),
+         ('CV', 'https://abguimba.github.io/CV.pdf'))
 
 # Blogroll
 LINKS = (('Github', 'https://github.com/abguimba'),
