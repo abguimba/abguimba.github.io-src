@@ -36,9 +36,7 @@ PATH = 'content'
 ## Settings used by this theme (All Optional)
 DEFAULT_DATE_FORMAT = ('%d %b %Y')
 SITESUBTITLE = 'Portfolio'
-FOOTER_TEXT = ' '
-DISPLAY_CATEGORIES_ON_MENU = True
-DISPLAY_PAGES_ON_MENU = False
+FOOTER_TEXT = 'Website powered by Pelican. Theme is a modified version of Chunk by onlyhavecans'
 
 SINGLE_AUTHOR = True
 MINT = False
@@ -55,17 +53,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MENUITEMS = (('Github', 'https://github.com/abguimba'),
-         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
-         ('Twitter', 'https://www.twitter.com/abguimba'),
-         ('CV', 'https://abguimba.github.io/CV.pdf'))
-
-# Blogroll
-LINKS = (('Github', 'https://github.com/abguimba'),
-         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
-         ('Twitter', 'https://www.twitter.com/abguimba'),
-         ('CV', 'https://abguimba.github.io/CV.pdf'))
-
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
@@ -75,12 +62,14 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = [
 #    'images',
     'extra',
+    'extra/CV.pdf',
     'extra/README.md',
     'extra/robots.txt',
     'extra/favicon.ico',
 ]
 EXTRA_PATH_METADATA = {
 #   'extra/custom.css': {'path': 'custom.css'},
+    'extra/CV.pdf': {'path': 'CV.pdf'},
     'extra/README.md': {'path': 'README.md'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
@@ -88,7 +77,6 @@ EXTRA_PATH_METADATA = {
 #    'extra/LICENSE': {'path': 'LICENSE'},
 #    'extra/README': {'path': 'README'},
 }
-
 
 TYPOGRIFY = True
 
