@@ -25,7 +25,6 @@
       var body = document.getElementById("body");
       var currentClass = body.className;
       body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-
         if (document.getElementById("dark-mode-button").innerText == "🌛")
       {
         document.getElementById("dark-mode-button").innerText = "🌞";
@@ -99,7 +98,20 @@
 		<div class="page-title">
 			{% block content_title %}{% endblock %}
 		</div>
-	
+
+    <ul class="tagcloud">
+    {% for tag in tag_cloud %}
+        <li class="tag-{{ tag.1 }}">
+            <a href="{{ SITEURL }}/{{ tag.0.url }}">
+            {{ tag.0 }}
+                {% if TAG_CLOUD_BADGE %}
+                    <span class="badge">{{ tag.2 }}</span>
+                {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+
 		<div id="contents">
 			{% block content %}
 			{% endblock %}

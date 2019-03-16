@@ -1,6 +1,6 @@
 title: minishell
 slug: minishell
-category: 42
+tags: 42
 date: 2017-06-09
 modified: 2017-06-09
 

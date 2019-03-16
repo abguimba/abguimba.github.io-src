@@ -23,6 +23,13 @@ DISPLAY_CATEGORIES_ON_MENU = False
 SINGLE_AUTHOR = True
 MINT = False
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["tag_cloud"]
+
+TAG_CLOUD_STEPS = 3
+TAG_CLOUD_MAX_ITEMS = 5
+TAG_CLOUD_SORTING = 'size-rev'
+TAG_CLOUD_BADGE = False
 
 TIMEZONE = 'Europe/Paris'
 
@@ -79,3 +86,4 @@ TYPOGRIFY = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+

@@ -827,6 +827,9 @@ body.dark-mode {
 body.dark-mode a {
   color: #fff;
 }
+body.dark-mode a:hover {
+  color: #36bcab;
+}
 body.dark-mode button {
   background-color: #111;
   color: #fff;
@@ -861,6 +864,9 @@ body.light-mode {
 }
 body.light-mode a {
   color: #111;
+}
+body.light-mode a:hover {
+  color: #36bcab;
 }
 body.light-mode button {
   background-color: #eee;
