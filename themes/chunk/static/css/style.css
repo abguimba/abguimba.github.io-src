@@ -73,6 +73,13 @@ body {
 	padding: 0;
 }
 
+#codewars-badge {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+
 /* =Menu
 ----------------------------------------------- */
 #menu {

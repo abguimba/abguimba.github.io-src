@@ -15,9 +15,9 @@ PATH = 'content'
 #MENUITEMS = True
 
 ## Settings used by this theme (All Optional)
-DEFAULT_DATE_FORMAT = ('%d %b %Y')
+DEFAULT_DATE_FORMAT = ('%Y')
 SITESUBTITLE = 'Portfolio'
-FOOTER_TEXT = 'Website powered by Pelican. Theme is a modified version of Chunk by onlyhavecans'
+FOOTER_TEXT = 'Website powered by Pelican. Theme is a modified version of Chunk by onlyhavecans.'
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 SINGLE_AUTHOR = True
@@ -70,6 +70,7 @@ STATIC_PATHS = [
     'extra/README.md',
     'extra/robots.txt',
     'extra/favicon.ico',
+    'extra/images',
 ]
 EXTRA_PATH_METADATA = {
 #   'extra/custom.css': {'path': 'custom.css'},
@@ -77,6 +78,7 @@ EXTRA_PATH_METADATA = {
     'extra/README.md': {'path': 'README.md'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+    'extra/images': {'path': 'images'},
 #    'extra/CNAME': {'path': 'CNAME'},
 #    'extra/LICENSE': {'path': 'LICENSE'},
 #    'extra/README': {'path': 'README'},
