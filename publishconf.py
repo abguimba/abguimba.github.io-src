@@ -34,7 +34,7 @@ PATH = 'content'
 
 
 ## Settings used by this theme (All Optional)
-DEFAULT_DATE_FORMAT = ('%d %b %Y')
+DEFAULT_DATE_FORMAT = ('%Y')
 SITESUBTITLE = 'Portfolio'
 FOOTER_TEXT = 'Website powered by Pelican. Theme is a modified version of Chunk by onlyhavecans'
 
