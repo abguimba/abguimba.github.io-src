@@ -27,6 +27,7 @@ should be enough to get you started with an executable.
 
 
 
+[ft_select subject](PDFs/42-ft_select.en.pdf)
 
 [Norminette subject](https://github.com/Binary-Hackers/42_Subjects/blob/master/04_Norme/norme_2_0_1.pdf)
 
