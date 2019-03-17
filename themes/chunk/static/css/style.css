@@ -13,6 +13,25 @@ Tags: light, white, fixed-width, one-column, custom-background, custom-header, c
 
 /* =Base
 ----------------------------------------------- */
+ul.tagcloud {
+  list-style: none;
+    padding: 0;
+}
+
+ul.tagcloud li {
+    display: block;
+    float: left;
+}
+
+
+/* ... add li.tag-3 etc, as much as needed */
+
+ul.tagcloud .list-group-item span.badge {
+    background-color: grey;
+    color: white;
+}
+
+
 body {
 	background-color: #fff;
 	background-image: -moz-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );

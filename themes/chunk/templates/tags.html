@@ -6,9 +6,4 @@
 </div>
 {% endblock %}
 {% block content %}
-<ul>
-{% for tag, article in tags %}
-    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a></li>
-{% endfor %}
-</ul>
 {% endblock %}

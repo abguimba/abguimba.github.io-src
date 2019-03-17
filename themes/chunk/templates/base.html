@@ -75,10 +75,10 @@
 			<div class="menu-navigation-container">
 				<ul id="menu-navigation" class="menu">
 					{% for titlee, link in MENUITEMS %}
-						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ link }}">{{ title }}</a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ link }}">{{ title }}</a></li>
 					{% endfor %}
-					  {% for p in PAGES %}
-						<li{% if p == page %} class="active"{% endif %} class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+					  {% for pg in PAGES|sort(attribute='sortorder') %}	
+            <li{% if p == page %} class="active"{% endif %} class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
 					  {% endfor %}
 					{% if DISPLAY_CATEGORIES_ON_MENU %}
 					  {% for cat, null in categories %}
@@ -99,18 +99,6 @@
 			{% block content_title %}{% endblock %}
 		</div>
 
-    <ul class="tagcloud">
-    {% for tag in tag_cloud %}
-        <li class="tag-{{ tag.1 }}">
-            <a href="{{ SITEURL }}/{{ tag.0.url }}">
-            {{ tag.0 }}
-                {% if TAG_CLOUD_BADGE %}
-                    <span class="badge">{{ tag.2 }}</span>
-                {% endif %}
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
 
 		<div id="contents">
 			{% block content %}

@@ -1,9 +1,9 @@
 title: ft_select
 slug: ft_select
 tags: 42, shell, C, Unix, TermCaps
-date: 2018-06-09
-modified: 2018-06-09
-
+date: 2019-01-01
+modified: 2019-01-01
+sortorder: 010
 
 
 _Small TermCaps program_

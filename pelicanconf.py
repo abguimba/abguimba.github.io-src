@@ -27,8 +27,8 @@ PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["tag_cloud"]
 
 TAG_CLOUD_STEPS = 3
-TAG_CLOUD_MAX_ITEMS = 5
-TAG_CLOUD_SORTING = 'size-rev'
+TAG_CLOUD_MAX_ITEMS = 10
+TAG_CLOUD_SORTING = 'size'
 TAG_CLOUD_BADGE = False
 
 TIMEZONE = 'Europe/Paris'
