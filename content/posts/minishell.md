@@ -3,7 +3,7 @@ slug: minishell
 tags: 42, shell, C, Unix
 date: 2018-06-09
 modified: 2018-06-09
-sortorder: 001
+sortorder: 100
 
 
 _As beautiful as a shell_
