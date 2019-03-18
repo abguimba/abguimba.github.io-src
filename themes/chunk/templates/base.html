@@ -70,7 +70,8 @@
 				<h1 id="site-title">{{ SITENAME }}</h1>
 				{% if SITESUBTITLE %}<h2 id="site-description">{{ SITESUBTITLE }}</h2>{% endif %}
 		</div><!-- /#banner -->
-		
+	  <img id="codewars-badge" src="https://www.codewars.com/users/abguimba/badges/small"/>	
+	  	
 		<div id="menu">
 			<div class="menu-navigation-container">
 				<ul id="menu-navigation" class="menu">
@@ -104,7 +105,6 @@
 			{% block content %}
 			{% endblock %}
 		</div>
-	  <img id="codewars-badge" src="https://www.codewars.com/users/abguimba/badges/small"/>	
 		<div id="footer">
 			<p>{{ FOOTER_TEXT or 'Powered by <a href="http://getpelican.com">Pelican</a>, theme by <a href="http://bunnyman.info">tBunnyMan</a>.' }}</p>
 			{% if GOOGLE_ANALYTICS %}

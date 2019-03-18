@@ -55,7 +55,7 @@ body {
 #contents {
 	border-left: 1px solid #ccc;
 	height: auto;
-	margin-left: 199px;
+	margin-left: 300px;
 	padding-bottom: 10px;
 }
 
@@ -87,15 +87,18 @@ body {
 	padding: 6px 10px;
 }
 
+#codewars-badge {
+  z-index: -1;
+  overflow: hidden;
+  left: 255px;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+}
+
 #menu #header-image a {
 	margin: 0;
 	padding: 0;
-}
-
-#codewars-badge {
-  position: fixed;
-  top: 10px;
-  left: 10px;
 }
 
 
