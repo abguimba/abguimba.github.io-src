@@ -14,7 +14,7 @@ This project is an initiation to VM management and system and network administra
 
 Second part of [init](init.html)
 
-
+Deployment of a secured and optimised linux server. Firewall, DDOS protection, packages, daemons and services, GPG-key based ssh authentification, etc
 
 [Check it out on Github!](https://github.com/abguimba/42-Roger-Skyline-1)  
   
