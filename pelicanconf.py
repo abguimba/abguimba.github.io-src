@@ -49,6 +49,7 @@ MENUITEMS = (('Github', 'https://github.com/abguimba'),
 
 # Blogroll
 LINKS =  (('42', 'https://42.fr/'),
+         ('@email', 'mailto:abrahamguimbao@gmail.com'),
          ('CV', 'https://abguimba.github.io/CV.pdf'),
          ('Github', 'https://github.com/abguimba'),
          ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
