@@ -109,15 +109,16 @@ body {
 	border-top: 1px solid #ddd;
 	margin-bottom: 25px;
 	padding: 10px;
+  padding-left: 45px;
 	text-align: right;
-	width: 800px;
+	width: 900px;
 }
 #menu img {
 	margin-bottom: 10px;
 }
 #menu a {
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 16.6px;
 	margin: 0 10px;
 	padding: 4px 0;
 	text-decoration: none;

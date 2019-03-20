@@ -45,16 +45,19 @@ AUTHOR_FEED_RSS = None
 MENUITEMS = (('Github', 'https://github.com/abguimba'),
          ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
          ('Twitter', 'https://www.twitter.com/abguimba'),
-         ('CV', 'https://abguimba.github.io/CV.pdf'))
+         ('CV', 'https://abguimba.github.io/AbrahamGuimbaoCV.en.pdf'))
 
 # Blogroll
 LINKS =  (('42', 'https://42.fr/'),
          ('@email', 'mailto:abrahamguimbao@gmail.com'),
-         ('CV', 'https://abguimba.github.io/CV.pdf'),
+         ('CV(es)', 'https://abguimba.github.io/AbrahamGuimbaoCV.es.pdf'),
+         ('CV(fr)', 'https://abguimba.github.io/AbrahamGuimbaoCV.fr.pdf'),
+         ('CV(en)', 'https://abguimba.github.io/AbrahamGuimbaoCV.en.pdf'),
          ('Github', 'https://github.com/abguimba'),
          ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
          ('Stack-Overflow', 'https://stackoverflow.com/users/10463714/abraham-guimbao?tab=profile'),
          ('CodeWars', 'https://www.codewars.com/users/abguimba'),
+         ('Fb', 'https://www.facebook.com/abraham.guimbao'),
          ('Twitter', 'https://www.twitter.com/abguimba'),
          ('Home', 'https://abguimba.github.io'))
 
@@ -67,7 +70,9 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = [
 #    'images',
     'extra',
-    'extra/CV.pdf',
+    'extra/AbrahamGuimbaoCV.es.pdf',
+    'extra/AbrahamGuimbaoCV.fr.pdf',
+    'extra/AbrahamGuimbaoCV.en.pdf',
     'extra/README.md',
     'extra/robots.txt',
     'extra/favicon.ico',
@@ -75,7 +80,9 @@ STATIC_PATHS = [
 ]
 EXTRA_PATH_METADATA = {
 #   'extra/custom.css': {'path': 'custom.css'},
-    'extra/CV.pdf': {'path': 'CV.pdf'},
+    'extra/AbrahamGuimbaoCV.es.pdf': {'path': 'AbrahamGuimbaoCV.es.pdf'},
+    'extra/AbrahamGuimbaoCV.fr.pdf': {'path': 'AbrahamGuimbaoCV.fr.pdf'},
+    'extra/AbrahamGuimbaoCV.en.pdf': {'path': 'AbrahamGuimbaoCV.en.pdf'},
     'extra/README.md': {'path': 'README.md'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
