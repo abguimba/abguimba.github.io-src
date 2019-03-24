@@ -3,7 +3,7 @@ slug: tic-tac-toe
 tags: python
 date: 2019-02-02
 modified: 2019-02-02
-sortorder: 199
+sortorder: 980
 
 
 _Little Tic-Tac-Toe game in python_
