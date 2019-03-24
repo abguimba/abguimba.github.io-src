@@ -3,7 +3,7 @@ slug: Docker-1
 tags: 42, shell, C, Unix, Docker, SysDev, DevOps
 date: 2018-06-09
 modified: 2018-06-09
-sortorder: 006
+sortorder: 993
 
 _Now, you’re thinking with containers..._
 

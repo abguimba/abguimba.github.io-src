@@ -3,7 +3,7 @@ slug: GNL
 tags: 42, shell, C, Unix
 date: 2018-06-09
 modified: 2018-06-09
-sortorder: 008
+sortorder: 999
 
 
 _GetNextLine_

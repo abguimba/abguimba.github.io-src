@@ -3,7 +3,7 @@ slug: init
 tags: 42, shell, C, Unix, VM, DevOps, SysDev
 date: 2018-06-09
 modified: 2018-06-09
-sortorder: 012
+sortorder: 997
 
 
 _INITiation to DevOps life_

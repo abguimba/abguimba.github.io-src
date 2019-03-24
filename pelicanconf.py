@@ -23,6 +23,9 @@ DISPLAY_CATEGORIES_ON_MENU = False
 SINGLE_AUTHOR = True
 MINT = False
 
+ARTICLE_ORDER_BY = 'sortorder'
+#PAGE_ORDER_BY = 'sortorder'
+
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["tag_cloud"]
 
