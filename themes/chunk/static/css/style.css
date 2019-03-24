@@ -85,7 +85,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 50px;
 	padding: 6px 10px;
-  border-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 #codewars-badge {
