@@ -85,6 +85,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 50px;
 	padding: 6px 10px;
+  border-color: #ffffff;
 }
 
 #codewars-badge {
@@ -462,7 +463,8 @@ a img {
 	border: none;
 }
 p img {
-	margin-bottom: 0.5em; /* a small bottom margin prevents content floating under images */
+  margin-bottom: 0.5em;
+  border: 1px solid white;
 }
 /*
 Resize images to fit the main content area.
