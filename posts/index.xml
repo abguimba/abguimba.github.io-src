@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/posts/21sh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/21sh/</guid>
+      <description>title: 21sh slug: 21sh tags: 42, shell, C, Unix date: 2019-02-02 modified: 2019-02-02 sortorder: 110
+As beautiful as a shell 2.0
+@42Born2Code
+We had to start from our minishell and make it stronger to get little by little closer to a real functionnal shell. We added couple of features such as multi-command management, redirections as well as line edition that will allow you to use arrows for example.
+Note: We used our 42sh to turn in our 42sh, and our 21sh.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/42sh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/42sh/</guid>
+      <description>title: 42sh slug: 42sh tags: 42, shell, C, Unix date: 2019-02-02 modified: 2019-02-02 sortorder: 109
+The ultimate shell
+@42Born2Code
+The last and hardest of the shell projects. We were asked, in a team of at least 4 people. To build a shell that incorporated a lot of modern shell functions, such as job control, globbing, inhibitors, scripting, perfect line management, signal handling, heredoc management, perfect piping and fd redirections, alias and complete environment management, history, autocompletion, syntax highlighting, POXIS builtins, abstract syntax trees, parser, lexer, binary hashing, etc&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/docker-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/docker-1/</guid>
+      <description>title: Docker-1 slug: Docker-1 tags: 42, shell, C, Unix, Docker, SysDev, DevOps date: 2018-06-09 modified: 2018-06-09 sortorder: 993
+Now, you’re thinking with containers&amp;hellip;
+@42Born2Code
+A really vast introduction to the world of Docker. From learning the insights of this powerful tool and containerization itself, to the usage of advanced Dockerfiles, to deploying our own CI platform through a Dockerfile.
+Check it out on Github!
+Docker-1 subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/fdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/fdf/</guid>
+      <description>title: FdF slug: FdF tags: 42, shell, C, Unix, Graphic, Wireframe date: 2018-06-09 modified: 2018-06-09 sortorder: 970
+Fils de fer
+@42Born2Code
+This project is about creating a simplified 3D graphic representation of a relief landscape making use of MacOS&amp;rsquo;s libx.
+Try it on Github!
+Just a simple
+$/&amp;gt; make  should be enough to get you started with an executable.
+FdF subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/fillit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/fillit/</guid>
+      <description>title: Fillit slug: Fillit tags: 42, shell, C, Unix date: 2018-06-09 modified: 2018-06-09 sortorder: 996
+Can you feel it?
+@42Born2Code
+Fillit is a project that lets you discover and/or familiarize yourself with a recurring problematic in programming: searching the optimal solution among a huge set of possibilities, in a respectable timing. In this particular project, you will have to find a way to assemble a given Tetriminos set altogether in the smallest possible square.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/gnl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gnl/</guid>
+      <description>title: GNL slug: GNL tags: 42, shell, C, Unix date: 2018-06-09 modified: 2018-06-09 sortorder: 999
+GetNextLine
+@42Born2Code
+The aim of this project is to make you code a function that returns a line ending with a newline, read from a file descriptor.
+Try it on Github!
+Just a simple
+$/&amp;gt; make  should be enough to get you started with an executable.
+GNL subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/libunit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/libunit/</guid>
+      <description>title: LibUnit slug: LibUnit tags: 42, shell, C, Unix, UnitTests date: 2019-02-02 modified: 2019-02-02 sortorder: 942
+First take at UnitTesting
+@42Born2Code
+This project required to work in a duo. We were asked to build a simplified version of a battery of UnitTests.
+We were required to use it to test one of our previous projects. We chose my libft.
+Try it on Github!
+Just a simple
+$/&amp;gt; make test  inside of a folder with some functions/executable to check inside of the realtests/ folder will compile the whole framework and start the testing for you.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/rs1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rs1/</guid>
+      <description>title: Roger-Skyline-1 slug: Roger-Skyline-1 tags: 42, shell, C, Unix, VM, SysDev, DevOps date: 2018-06-09 modified: 2018-06-09 sortorder: 995
+VM&amp;rsquo;s, Devops, Sysdev
+@42Born2Code
+This project is an initiation to VM management and system and network administration.
+Second part of init
+Deployment of a secured and optimised linux server. Firewall, DDOS protection, packages, daemons and services, GPG-key based ssh authentification, etc
+Check it out on Github!
+Roger-Skyline-1 subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/ft_ls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ft_ls/</guid>
+      <description>title: ft_ls slug: ft_ls tags: 42, shell, C, Unix date: 2018-06-09 modified: 2018-06-09 sortorder: 994
+Recoding ls
+@42Born2Code
+In short: This project was about making us recode the command “ls” using our own library of functions (libft)
+Try it on Github!
+Just a simple
+$/&amp;gt; make  should be enough to get you started with an executable.
+ft_ls subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/ft_select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ft_select/</guid>
+      <description>title: ft_select slug: ft_select tags: 42, shell, C, Unix, TermCaps date: 2019-01-01 modified: 2019-01-01 sortorder: 990
+Small TermCaps program
+@42Born2Code
+This project was meant to make us code a small program using termcaps which will allow us to pick from a list of choices and return it to our shell.
+Try it on Github!
+Just a simple
+$/&amp;gt; make  should be enough to get you started with an executable.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/init/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/init/</guid>
+      <description>title: init slug: init tags: 42, shell, C, Unix, VM, DevOps, SysDev date: 2018-06-09 modified: 2018-06-09 sortorder: 997
+INITiation to DevOps life
+@42Born2Code
+This first project, init, will give you the opportunity to discover system and network basic commands, many of the services used on a server machine, as well as a few ideas of scripts that can be useful for SysAdmins on a daily basis.
+Check it out on Github!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/libft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/libft/</guid>
+      <description>title: libft slug: libft tags: 42, shell, C, Unix date: 2018-06-09 modified: 2018-06-09 sortorder: 998
+Small C library
+@42Born2Code
+The aim of this project is to code a C library regrouping usual functions that we’ll be allowed to use in all of our other projects.
+Try it on Github!
+Just a simple
+$/&amp;gt; make  should be enough to get you started with an executable.
+libft subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/minishell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/minishell/</guid>
+      <description>title: minishell slug: minishell tags: 42, shell, C, Unix date: 2018-06-09 modified: 2018-06-09 sortorder: 969
+As beautiful as a shell
+@42Born2Code
+The objective of this project was for us to create the simplest start of a shellscript. As always, using our own library (libft).
+Try it on Github!
+Just a simple
+$/&amp;gt; make  should be enough to get you started with an executable.
+minishell subject
+Norminette subject
+Every 42 subject</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/tic-tac-toe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tic-tac-toe/</guid>
+      <description>title: tic-tac-toe slug: tic-tac-toe tags: python date: 2019-02-02 modified: 2019-02-02 sortorder: 980
+Little Tic-Tac-Toe game in python
+A game I made for fun to put in practice what I had learned in python so far.
+Try it on Github!
+Just a simple
+$/&amp;gt; python3 board_game.py  should get a new game going for you.
+Python3 recommended.</description>
+    </item>
+    
+  </channel>
+</rss>

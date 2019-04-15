@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/21sh/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/42sh/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/docker-1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/fdf/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/fillit/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/gnl/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/libunit/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/rs1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/ft_ls/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/ft_select/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/init/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/libft/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/minishell/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/tic-tac-toe/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
