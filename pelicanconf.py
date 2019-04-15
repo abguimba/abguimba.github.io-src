@@ -60,7 +60,7 @@ LINKS =  (('42', 'https://42.fr/'),
          ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
          ('Stack-Overflow', 'https://stackoverflow.com/users/10463714/abraham-guimbao?tab=profile'),
          ('CodeWars', 'https://www.codewars.com/users/abguimba'),
-         ('Fb', 'https://www.facebook.com/abraham.guimbao'),
+         ('About', 'https://abguimba.github.io/aboutme'),
          ('Twitter', 'https://www.twitter.com/abguimba'),
          ('Home', 'https://abguimba.github.io'))
 
