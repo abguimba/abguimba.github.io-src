@@ -19,7 +19,7 @@ A game I made for fun to put in practice what I had learned in python so far.
 
 Just a simple
 
-    $/> python3 board_game.py
+    $ python3 board_game.py
 
 should get a new game going for you.
 

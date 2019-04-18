@@ -22,7 +22,7 @@ We were required to use it to test one of our previous projects. We chose my [li
 Just a simple
 
 
-    $/> make test
+    $ make test
 
 inside of a folder with some functions/executable to check inside of the realtests/ folder will compile the whole framework and start the testing for you.
 I included my own test files from my libft.

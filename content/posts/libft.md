@@ -22,10 +22,10 @@ The aim of this project is to code a C library regrouping usual functions that w
 
 Just a simple
     
-    $/> make
+    $ make
 
 
-should be enough to get you started with an executable.
+should be enough to get you started with a dynamic library file.
 
 
 [libft subject](42-libft.en.pdf)

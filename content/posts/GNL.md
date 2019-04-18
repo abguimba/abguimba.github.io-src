@@ -22,7 +22,7 @@ The aim of this project is to make you code a function that returns a line endin
 
 Just a simple
     
-    $/> make
+    $ make
 
 should be enough to get you started with an executable.
 

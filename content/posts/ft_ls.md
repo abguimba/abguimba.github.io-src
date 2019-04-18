@@ -22,7 +22,7 @@ In short: This project was about making us recode the command “ls” using our
 
 Just a simple
     
-    $/> make
+    $ make
 
 should be enough to get you started with an executable.
 

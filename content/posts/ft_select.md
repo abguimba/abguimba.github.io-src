@@ -21,7 +21,7 @@ This project was meant to make us code a small program using termcaps which will
 
 Just a simple
     
-    $/> make
+    $ make
 
 should be enough to get you started with an executable.
 

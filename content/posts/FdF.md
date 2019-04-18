@@ -23,7 +23,7 @@ This project is about creating a simplified 3D graphic representation of a relie
 
 Just a simple
     
-    $/> make
+    $ make
 
 should be enough to get you started with an executable.
 

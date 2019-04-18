@@ -22,7 +22,7 @@ The objective of this project was for us to create the simplest start of a shell
 
 Just a simple
     
-    $/> make
+    $ make
 
 should be enough to get you started with an executable.
 

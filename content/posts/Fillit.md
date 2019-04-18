@@ -24,7 +24,7 @@ You'll have to arrange all the Tetris pieces in the smallest possible "square".
 
 Just a simple
     
-    $/> make
+    $ make
 
 should be enough to get you started with an executable.
 
