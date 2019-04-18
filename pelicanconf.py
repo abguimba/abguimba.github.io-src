@@ -56,12 +56,12 @@ LINKS =  (('42', 'https://42.fr/'),
          ('CV(es)', 'https://abguimba.github.io/AbrahamGuimbaoCV.es.pdf'),
          ('CV(fr)', 'https://abguimba.github.io/AbrahamGuimbaoCV.fr.pdf'),
          ('CV(en)', 'https://abguimba.github.io/AbrahamGuimbaoCV.en.pdf'),
-         ('Github', 'https://github.com/abguimba'),
-         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
-         ('Stack-Overflow', 'https://stackoverflow.com/users/10463714/abraham-guimbao?tab=profile'),
          ('CodeWars', 'https://www.codewars.com/users/abguimba'),
-         ('About', 'https://abguimba.github.io/aboutme'),
+         ('Stack-Overflow', 'https://stackoverflow.com/users/10463714/abraham-guimbao?tab=profile'),
+         ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
+         ('Github', 'https://github.com/abguimba'),
          ('Twitter', 'https://www.twitter.com/abguimba'),
+         ('About', 'https://abguimba.github.io/aboutme'),
          ('Home', 'https://abguimba.github.io'))
 
 # Social widget
