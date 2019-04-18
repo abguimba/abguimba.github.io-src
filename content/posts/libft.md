@@ -25,7 +25,7 @@ Just a simple
     $ make
 
 
-should be enough to get you started with a dynamic library file.
+should be enough to get you started with a compiled library that you can simply add to any C project.
 
 
 [libft subject](42-libft.en.pdf)
