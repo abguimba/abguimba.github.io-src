@@ -1,6 +1,6 @@
 title: tic-tac-toe
 slug: tic-tac-toe
-tags: python
+tags: python unix games
 date: 2019-02-02
 modified: 2019-02-02
 sortorder: 980
