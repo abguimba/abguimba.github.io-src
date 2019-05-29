@@ -61,6 +61,7 @@ LINKS =  (('42', 'https://42.fr/'),
          ('Linkedin', 'https://www.linkedin.com/in/abraham-guimbao-parra'),
          ('Github', 'https://github.com/abguimba'),
          ('Twitter', 'https://www.twitter.com/abguimba'),
+         ('Keybase', 'https://keybase.io/abguimba'),
          ('About', 'https://abguimba.github.io/aboutme'),
          ('Home', 'https://abguimba.github.io'))
 
