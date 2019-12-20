@@ -31,7 +31,7 @@ The only argument needed is a config file. All info about making your own config
 
 - Create a file in json format with the following characteristics:
 
-<img src="/images/Taskmaster05.png" alt="Taskmaster05" width="700"/>
+<img src="/images/Taskmaster05.png" alt="Taskmaster05" width="850"/>
 
 ## Launching method
 
